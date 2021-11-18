@@ -1,0 +1,22 @@
+:root{
+    --cor0: #143A5E;
+    --cor1: #24687F;
+    --cor2: #22BFB3;
+    --cor3: #81D3A2;
+    --cor4: #E8E8E8;
+    --font0: Arial, sans-serif;
+}
+body{
+    margin: 0px;
+}
+header{
+    position: sticky;
+    height: 170px;
+    padding: 1px;
+    background-color: var(--cor1);
+}
+nav{
+    position: absolute;
+    bottom: 0px;
+    text-decoration: none;
+}
