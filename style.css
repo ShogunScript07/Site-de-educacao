@@ -15,8 +15,40 @@ header{
     padding: 1px;
     background-color: var(--cor1);
 }
+header > h1{
+    text-align: center;
+    font-family: var(--font0);
+    font-weight: lighter;
+}
 nav{
-    position: absolute;
-    bottom: 0px;
+    position: relative;
+    bottom: -63px;
+    padding: 5px;
+    background-color: var(--cor0);
+    font-family: var(--font0);
+}
+nav > a{
+    text-decoration: none;
+    color: var(--cor4);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav > a:hover{
+    background-color: var(--cor2);
+    border-radius: 10px;
+    transition-duration: .7s;
+}
+section{
+    height: 800px;
+}
+footer{
+    background-color: var(--cor0);
+    columns: 2;
+    max-width: 600px;
+}
+footer li > a{
+    color: var(--cor2);
     text-decoration: none;
 }
