@@ -8,6 +8,7 @@
 }
 body{
     margin: 0px;
+    background-color: var(--cor3);
 }
 header{
     position: sticky;
@@ -16,16 +17,21 @@ header{
     background-color: var(--cor1);
 }
 header > h1{
+    font-size: 45px;
+    color: var(--cor2);
     text-align: center;
     font-family: var(--font0);
     font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px;
 }
 nav{
-    position: relative;
-    bottom: -63px;
+    bottom: 0px;
     padding: 5px;
     background-color: var(--cor0);
     font-family: var(--font0);
+    box-shadow: 1px 2px 8px black;
 }
 nav > a{
     text-decoration: none;
@@ -34,6 +40,7 @@ nav > a{
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+    
 }
 nav > a:hover{
     background-color: var(--cor2);
@@ -46,9 +53,19 @@ section{
 footer{
     background-color: var(--cor0);
     columns: 2;
-    max-width: 600px;
+    font-family: var(--font0);
+    height: 150px;
 }
 footer li > a{
     color: var(--cor2);
     text-decoration: none;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+footer li{
+    padding: .4px;
+}
+footer ul > h3{
+    padding-bottom: -20px;
+    color: var(--cor3);
 }
