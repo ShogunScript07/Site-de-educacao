@@ -27,7 +27,9 @@ header > h1{
     padding: 15px;
 }
 nav{
-    bottom: 0px;
+    position: relative;
+    bottom: -61px;
+    margin-bottom: 0px;
     padding: 5px;
     background-color: var(--cor0);
     font-family: var(--font0);
